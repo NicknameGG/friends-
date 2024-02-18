@@ -6,6 +6,8 @@
 	"name": "Friends!",
 	"developer": "n",
 	"description": "Stop playing GD alone! Play with friends!",
+	"repository": "https://github.com/NicknameGG/friends-",
+	"tags": ["Enhancement", "Offline"],
 	"settings": {
 		"Friend Scale": {
 			"type": "float",
