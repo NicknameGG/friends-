@@ -10,6 +10,8 @@ PetLayer* petLayer = nullptr;
 
 class $modify(AchievementNotifier) {
 	void willSwitchToScene(CCScene* scene) {
+		AchievementNotifier::willSwitchToScene(scene);
+
 		auto disableInGame = Mod::get()->getSettingValue<bool>("Disable In Game");
 		auto disableInEditor = Mod::get()->getSettingValue<bool>("Disable In Editor");
 
@@ -45,8 +47,6 @@ class $modify(AchievementNotifier) {
 
 		petLayer->removeFromParentAndCleanup(false);
 		scene->addChild(petLayer, 100);
-
-		AchievementNotifier::willSwitchToScene(scene);
 	}
 };
 
