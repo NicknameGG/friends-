@@ -1,16 +1,20 @@
 {
-	"geode": "2.0.0-beta.20",
+	"geode": "3.0.0",
 	"gd": {
-		"win": "2.204",
-		"android": "2.205"
+		"win": "2.206",
+		"android": "2.206",
+		"mac": "2.206",
+		"ios": "2.206"
 	},
-	"version": "v1.0.1",
 	"id": "n.friends",
 	"name": "Friends!",
+	"version": "v1.1.1",
 	"developer": "n",
 	"description": "Stop playing GD alone! Play with friends!",
 	"repository": "https://github.com/NicknameGG/friends-",
-	"tags": ["Enhancement", "Offline"],
+	"tags": [
+		"offline", "joke"
+	],
 	"settings": {
 		"Friend Scale": {
 			"type": "float",

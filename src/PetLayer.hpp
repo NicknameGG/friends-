@@ -50,6 +50,7 @@ public:
 		}
 
 		this->createPet(PetType::Auto);
+		this->createPet(PetType::NA);
 		this->createPet(PetType::Easy);
 		this->createPet(PetType::Normal);
 		this->createPet(PetType::Hard);

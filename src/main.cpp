@@ -1,6 +1,6 @@
 #include <Geode/Geode.hpp>
 #include <Geode/loader/SettingEvent.hpp>
-#include <Geode/modify/AchievementNotifier.hpp>
+#include <Geode/modify/AppDelegate.hpp>
 
 #include "PetLayer.hpp"
 
@@ -8,9 +8,9 @@ using namespace geode::prelude;
 
 PetLayer* petLayer = nullptr;
 
-class $modify(AchievementNotifier) {
+class $modify(AppDelegate) {
 	void willSwitchToScene(CCScene* scene) {
-		AchievementNotifier::willSwitchToScene(scene);
+		AppDelegate::willSwitchToScene(scene);
 
 		auto disableInGame = Mod::get()->getSettingValue<bool>("Disable In Game");
 		auto disableInEditor = Mod::get()->getSettingValue<bool>("Disable In Editor");

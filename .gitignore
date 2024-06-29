@@ -53,3 +53,9 @@ build-*/
 
 # clangd
 .cache/
+
+# Visual Studio
+.vs/
+
+# CLion
+/cmake-build-*/
