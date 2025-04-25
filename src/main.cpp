@@ -1,5 +1,4 @@
 #include <Geode/Geode.hpp>
-#include <Geode/loader/SettingEvent.hpp>
 #include <Geode/modify/AppDelegate.hpp>
 
 #include "PetLayer.hpp"
@@ -52,7 +51,7 @@ class $modify(AppDelegate) {
 
 
 $execute {
-	listenForAllSettingChanges([](auto* v) {
+	listenForAllSettingChanges([](auto v) {
 		if (petLayer) {
 			petLayer->updateValues();
 		}

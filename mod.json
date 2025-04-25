@@ -1,5 +1,5 @@
 {
-	"geode": "4.0.0",
+	"geode": "4.3.1",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
@@ -8,10 +8,12 @@
 	},
 	"id": "n.friends",
 	"name": "Friends!",
-	"version": "v1.1.1",
+	"version": "v1.1.2",
 	"developer": "n",
 	"description": "Stop playing GD alone! Play with friends!",
-	"repository": "https://github.com/NicknameGG/friends-",
+	"links": {
+		"source": "https://github.com/NicknameGG/friends-"
+	},
 	"tags": [
 		"offline", "joke"
 	],
